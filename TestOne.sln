@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractCompositePattern", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldCompositePattern", "RealWorldCompositePattern\RealWorldCompositePattern.csproj", "{FC0CE829-AEBE-474D-BB5F-12B6CDFDA051}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralDesignPatterns", "StructuralDesignPatterns", "{761D7410-DE6F-4685-81CE-E4F1F4A35FD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4F07C11-5058-496E-A926-1145FE1A1F82} = {761D7410-DE6F-4685-81CE-E4F1F4A35FD4}
+		{FC0CE829-AEBE-474D-BB5F-12B6CDFDA051} = {761D7410-DE6F-4685-81CE-E4F1F4A35FD4}
 	EndGlobalSection
 EndGlobal
